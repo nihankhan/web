@@ -1,0 +1,41 @@
+h1 {
+	color : darkgreen;
+	text-align : center;
+}
+
+p {
+	color : blue;
+}
+
+table {
+	color: green;
+	border: 3px solid black;
+	border-collapse: collapse;
+	width: 50%; 
+}
+
+th, td {
+	border: 2px solid black;
+	text-align: center;
+	padding: 5px;
+}
+
+th {
+	background-color: lightgrey;
+}
+
+#top {
+	font-size: 34px;
+	color: blue;
+}
+#middle {
+	font-size: 24px;
+}
+#buttom {
+	font-size: 13px;
+}
+
+.name {
+	font-weight: bold;
+	color: red;
+}
