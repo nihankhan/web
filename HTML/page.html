@@ -1,6 +1,26 @@
 <!DOCTYPE HTML>
 <html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			@media (min-width: 500px) {
+				h1::before {
+					content: "Welcome to my webpage";
+				}
+			}
+
+			@media (max-width: 499px) {
+				h1::before {
+					content: "Welcome!";
+				}
+			}
+		</style>
+	</head>	
 	<body>
 		<h1> This is a second page. </h1>
+
+		<p> This is a paragraph </p>
+		<p> This is another paragraph </p>
+		<p> This is a third paragraph. </p>
 	</body>	
 </html>
